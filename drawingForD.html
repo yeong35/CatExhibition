@@ -4,25 +4,35 @@
 <head>
     <meta charset="utf-8">
     <title>Cat Exhibition</title>
+    <link rel='stylesheet' type="text/css" href="sidebar.css">
 </head>
 
 <body>
-    <h1><a href="./index.html">고양이 전시관</a></h1>
+    <div id="wrapper">
+        <div id="title">
+            <h1><a id="headTitle" href="./index.html">고양이 전시관</a></h1>
+        </div>
+        <div id="sidebarAndBoard">
+            <div id="sidebar">
+                <ul>
+                    <li><a href="./instruction.html">소개</a></li>
+                    <li><a href="./pictureForD.html">사진</a></li>
+                    <li><a href="./drawingForD.html">그림</a></li>
+                </ul>
+            </div>
 
-    <ul>
-        <li><a href="./instruction.html">소개</a></li>
-        <li><a href="./pictureForD.html">사진</a></li>
-        <li><a href="./drawingForD.html">그림</a></li>
-    </ul>
+            <div id="board">
+                <img src="./catImg/CatUniverse.jpeg" height="400" alt="CatUniverse">
+                <p class="titleOfPicture">고양이가 내리는 우주, 최명신</p>
 
-    <img src="./catImg/CatUniverse.jpeg"  height="400" alt = "CatUniverse">
-    <p class="titleOfPicture">고양이가 내리는 우주, 최명신</p>
+                <img src="./catImg/BlackBeanRice.jpeg" height="400" alt="BlackBeanRice">
+                <p class="titleOfPicture">단비콩밥, 최명신</p>
 
-    <img src="./catImg/BlackBeanRice.jpeg"  height="400" alt = "BlackBeanRice">
-    <p class="titleOfPicture">단비콩밥, 최명신</p>
-
-    <img src="./catImg/nurse.png"  height="400" alt = "nurse">
-    <p class="titleOfPicture">배트ㅡ단비, 이다인</p>
-
+                <img src="./catImg/nurse.png" height="400" alt="nurse">
+                <p class="titleOfPicture">배트ㅡ단비, 이다인</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
