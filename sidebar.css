@@ -1,0 +1,41 @@
+#wrapper{
+    display: grid;
+}
+#sidebarAndBoard{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+ }
+#title{
+    background-color: lemonchiffon;
+}
+
+#sidebarAndBoard > div{
+    flex:1;
+}
+#sidebar {
+    background-color: lightblue;
+}
+
+#board {
+    background-color: lightpink;
+}
+
+.page{
+    background-color: grey;
+}
+
+h1{
+   font-size: 8vh;
+}
+
+ul>li{
+    font-size: 2.5vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+ list-style-type: none;   
+}
