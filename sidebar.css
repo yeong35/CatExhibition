@@ -6,34 +6,61 @@
     grid-template-columns: 0.5fr 3fr;
  }
 #title{
+    text-align: center;
+    /*
     background-color: lemonchiffon;
+    */
 }
 
 #sidebarAndBoard > div{
     flex:1;
 }
 #sidebar {
+    /*
     background-color: lightblue;
+    */
 }
 
 #board {
+    /*
     background-color: lightpink;
+    */
 }
 
 .page{
+    /*
     background-color: grey;
+    */
 }
 
 h1{
-   font-size: 8vh;
+    margin-left:8vh;
+    font-size: 8vh;
 }
 
 ul>li{
     font-size: 2.5vh;
+    margin-top:2.5vh;
+    margin-bottom: 2.5vh;
+    text-align: center;
 }
+
+
 
 a {
     text-decoration: none;
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:active{
+    color:slategray;
 }
 
 ul {
