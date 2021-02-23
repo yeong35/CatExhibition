@@ -22,10 +22,15 @@
     */
 }
 
-#board {
+#board > div {
     /*
-    background-color: lightpink;
+    text-align: center;
     */
+}
+
+div > .background{
+    max-width: 100%;
+    height: auto;
 }
 
 .page{
