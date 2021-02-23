@@ -6,36 +6,17 @@
     grid-template-columns: 0.5fr 3fr;
  }
 #title{
-<<<<<<< HEAD
-    background-color: lemonchiffon;
-=======
     text-align: center;
     border-bottom:2px solid lightgray;
     /*
     background-color: lemonchiffon;
     */
->>>>>>> css1
 }
 
 #sidebarAndBoard > div{
     flex:1;
 }
 #sidebar {
-<<<<<<< HEAD
-    background-color: lightblue;
-}
-
-#board {
-    background-color: lightpink;
-}
-
-.page{
-    background-color: grey;
-}
-
-h1{
-   font-size: 8vh;
-=======
     /*
     background-color: lightblue;
     */
@@ -61,29 +42,22 @@ div > .background{
 h1{
     margin-left:8vh;
     font-size: 8vh;
->>>>>>> css1
+
 }
 
 ul>li{
     font-size: 2.5vh;
-<<<<<<< HEAD
-}
 
-=======
     margin-top:2.5vh;
     margin-bottom: 2.5vh;
     text-align: center;
 }
 
-
-
->>>>>>> css1
 a {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
+
 a:link{
     color:black;
 }
@@ -96,7 +70,6 @@ a:active{
     color:slategray;
 }
 
->>>>>>> css1
 ul {
  list-style-type: none;   
 }
